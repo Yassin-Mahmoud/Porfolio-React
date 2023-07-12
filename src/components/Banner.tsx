@@ -1,4 +1,4 @@
-import BannerImage from "../assets/developer-dark (1).svg";
+import BannerImage from "../assets/developer-dark.svg";
 import { FiArrowDownCircle } from "react-icons/fi";
 
 const Banner = () => {

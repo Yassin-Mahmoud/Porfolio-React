@@ -11,12 +11,12 @@ const socialLinks = [
     {
         id: 1,
         icon: <FiGlobe />,
-        url: "https://www.stoman.me/",
+        url: "https://yassin-portfolio0.netlify.app/",
     },
     {
         id: 2,
         icon: <FiGithub />,
-        url: "https://github.com/realstoman",
+        url: "https://github.com/Yassin-Mahmoud",
     },
     {
         id: 3,
@@ -65,7 +65,7 @@ const Footer = () => {
                     <div className="text-lg text-ternary-dark dark:text-ternary-light">
                         &copy; {new Date().getFullYear()}
                         <a
-                            href="https://github.com/realstoman/react-tailwindcss-portfolio"
+                            href="https://github.com/Yassin-Mahmoud/Porfolio-React"
                             target="__blank"
                             className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
                         >

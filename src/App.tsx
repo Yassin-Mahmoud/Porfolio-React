@@ -27,10 +27,20 @@ function App() {
                 <Navbar />
                 <Suspense fallback={""}>
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/projects" element={<Projects />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/Portfolio-React/" element={<Home />} />
+                        <Route
+                            path="/Portfolio-React/projects"
+                            element={<Projects />}
+                        />
+                        <Route
+                            path="/Portfolio-React/about"
+                            element={<About />}
+                        />
+                        <Route
+                            path="/Portfolio-React/contact"
+                            element={<Contact />}
+                        />
+                        <Route path="*" element={<Home />} />
                     </Routes>
                 </Suspense>
                 <Footer />
