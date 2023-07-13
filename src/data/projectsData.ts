@@ -11,7 +11,7 @@ export const projectsData = [
         tech: "ReactJS, TypeScript and Tailwindcss",
         img: ecommerceImage,
         github: "https://github.com/Yassin-Mahmoud/e-Commerce-React",
-        demo: "",
+        demo: "https://yassin-mahmoud.github.io/e-Commerce-React/",
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export const projectsData = [
         tech: "ReactJS, TypeScript and Tailwindcss",
         img: netflixImage,
         github: "https://github.com/Yassin-Mahmoud/Netflix-Clone-React",
-        demo: "",
+        demo: "https://netflix-clone-react-1c9cb.firebaseapp.com/",
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const projectsData = [
         tech: "ReactJS, TypeScript and Tailwindcss",
         img: weatherImage,
         github: "https://github.com/Yassin-Mahmoud/Weather-App",
-        demo: "",
+        demo: "https://yassin-mahmoud.github.io/Weather-App/",
     },
     {
         id: 4,
@@ -35,7 +35,7 @@ export const projectsData = [
         tech: "ReactJS, TypeScript and CSS",
         img: todoImage,
         github: "https://github.com/Yassin-Mahmoud/Todo-App-React",
-        demo: "",
+        demo: "https://yassin-mahmoud.github.io/Todo-App/",
     },
     {
         id: 5,
@@ -43,6 +43,6 @@ export const projectsData = [
         tech: "ReactJS, TypeScript and Tailwindcss",
         img: triviaImage,
         github: "https://github.com/Yassin-Mahmoud/Trivia-Game",
-        demo: "",
+        demo: "https://yassin-mahmoud.github.io/trivia-game/",
     },
 ];

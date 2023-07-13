@@ -1,17 +1,11 @@
-import {
-    FiGithub,
-    FiGlobe,
-    FiLinkedin,
-    FiTwitter,
-    FiYoutube,
-} from "react-icons/fi";
+import { FiGithub, FiGlobe, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const socialLinks = [
     {
         id: 1,
         icon: <FiGlobe />,
-        url: "https://yassin-portfolio0.netlify.app/",
+        url: "https://yassin-mahmoud.github.io/Portfolio-React/",
     },
     {
         id: 2,
@@ -21,17 +15,12 @@ const socialLinks = [
     {
         id: 3,
         icon: <FiTwitter />,
-        url: "https://twitter.com/realstoman",
+        url: "",
     },
     {
         id: 4,
         icon: <FiLinkedin />,
-        url: "https://www.linkedin.com/in/realstoman",
-    },
-    {
-        id: 5,
-        icon: <FiYoutube />,
-        url: "https://www.youtube.com/c/realstoman",
+        url: "https://www.linkedin.com/in/yassin-frontend-dev/",
     },
 ];
 
@@ -40,8 +29,8 @@ const Footer = () => {
         <div className="container mx-auto">
             <div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
                 {/* Footer social links */}
-                <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
-                    <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
+                <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-16">
+                    <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-12">
                         Follow me
                     </p>
                     <ul className="flex gap-4 sm:gap-8">
@@ -65,7 +54,7 @@ const Footer = () => {
                     <div className="text-lg text-ternary-dark dark:text-ternary-light">
                         &copy; {new Date().getFullYear()}
                         <a
-                            href="https://github.com/Yassin-Mahmoud/Porfolio-React"
+                            href="https://github.com/Yassin-Mahmoud/Porfolio-React/"
                             target="__blank"
                             className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
                         >
@@ -73,7 +62,7 @@ const Footer = () => {
                         </a>
                         .
                         <Link
-                            to="/about"
+                            to="/Portfolio-React/about"
                             className="text-secondary-dark dark:text-secondary-light font-medium uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
                         >
                             Yassin
